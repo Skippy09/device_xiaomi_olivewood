@@ -12,6 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from olivewood device
 $(call inherit-product, device/xiaomi/olivewood/device.mk)
 
+# Offline Charging
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Inherit some LineageOS stuff.
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
