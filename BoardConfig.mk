@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/olivewood
+DEVICE_PATH := device/xiaomi/olivelite
 
 # Architecture
 TARGET_ARCH := arm64
@@ -126,7 +126,7 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 an
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_SOURCE := kernel/xiaomi/olivewood
+TARGET_KERNEL_SOURCE := kernel/xiaomi/olivelite
 TARGET_KERNEL_CONFIG := olive-perf_defconfig
 TARGET_KERNEL_VERSION := 4.9
 BOARD_KERNEL_SEPARATED_DTBO := true
@@ -134,7 +134,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := olivewood,olivelite
+TARGET_OTA_ASSERT_DEVICE := olivelite,olivelite
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -190,4 +190,4 @@ WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit from the proprietary version
-include vendor/xiaomi/olivewood/BoardConfigVendor.mk
+include vendor/xiaomi/olivelite/BoardConfigVendor.mk

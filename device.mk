@@ -190,7 +190,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.olivewood
+    android.hardware.light@2.0-service.olivelite
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
@@ -292,7 +292,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 # Property
--include device/xiaomi/olivewood/product/tweaks.mk
+-include device/xiaomi/olivelite/product/tweaks.mk
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -416,4 +416,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/olivewood/olivewood-vendor.mk)
+$(call inherit-product, vendor/xiaomi/olivelite/olivelite-vendor.mk)

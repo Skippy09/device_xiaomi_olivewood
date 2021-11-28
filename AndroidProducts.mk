@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_olivewood.mk
+    $(LOCAL_DIR)/dot_olivelite.mk

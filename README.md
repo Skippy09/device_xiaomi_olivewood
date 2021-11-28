@@ -1,6 +1,6 @@
-<p align="center" style="font-size:30px"><b>Device configurations for Redmi 8A Dual (olivewood)</b></p>
+<p align="center" style="font-size:30px"><b>Device configurations for Redmi 8A Dual (olivelite)</b></p>
 
-The Redmi 8A Dual (codenamed as ``olivewood``) are mid-range low-range smartphones from Xiaomi.
+The Redmi 8A Dual (codenamed as ``olivelite``) are mid-range low-range smartphones from Xiaomi.
 
 Xiaomi Redmi 8A Dual was announced in February and released in May 2020
 
