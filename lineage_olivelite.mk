@@ -18,16 +18,16 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Inherit some LineageOS stuff.
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_olivelite
+PRODUCT_NAME := lineage_olivelite
 PRODUCT_DEVICE := olivelite
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 8A/8A Dual
+PRODUCT_MODEL := Redmi 8A
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
