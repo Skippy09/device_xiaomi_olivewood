@@ -412,8 +412,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/olivelite/olivelite-vendor.mk)
